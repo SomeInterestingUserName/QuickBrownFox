@@ -8,7 +8,7 @@ QuBrFx("String")
 
 False
 ```
-where "String" is the sequence under test. Test returns `True` if string contains at least one instance of each character in the character set, case insensitive. Test returns `False` otherwise. Default character set is `abcdefghijklmnopqrstuvwxyz`. Testing with custom character sets can be performed by passing the `charset` argument with a string consisting of all characters in the character set:
+where `"String"` is the sequence under test. Test returns `True` if string contains at least one instance of each character in the character set, case insensitive. Test returns `False` otherwise. Default character set is `abcdefghijklmnopqrstuvwxyz`. Testing with custom character sets can be performed by passing the `charset` argument with a string consisting of all characters in the character set:
 ```python
 QuBrFx("This Sentence is False", charset="abc")
 
