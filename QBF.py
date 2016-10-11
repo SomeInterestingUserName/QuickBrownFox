@@ -17,6 +17,6 @@ def QuBrFx(string_in, charset="abcdefghijklmnopqrstuvwxyz"):
 if __name__ == '__main__': #Executes a test case if program is directly run. Just to test.
     import time
     start = time.clock()
-    result = QuBrFx("The quick brown fox jumped over the lazy dog.")
+    result = QuBrFx("The quick brown fox jumps over the lazy dog.")
     print(time.clock() - start)
     print(result)
