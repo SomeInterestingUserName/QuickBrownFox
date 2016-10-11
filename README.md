@@ -1,5 +1,5 @@
 # QuickBrownFox
-A simple test to check if a string contains all the letters in the alphabet. Named after the sentence that would satisfy this test, "The quick brown fox jumped over the lazy dog." Also trying to test out/familiarize myself with GitHub's features.
+A simple test to check if a string contains all the letters in the alphabet. Named after the sentence that would satisfy this test, "The quick brown fox jumps over the lazy dog." Also trying to test out/familiarize myself with GitHub's features.
 
 # Usage
 The **Qu**ick**Br**own**F**o**x**, or QuBrFx test, is performed by calling
@@ -18,7 +18,7 @@ False
 # Examples
 
 ```python
-QuBrFx("The quick brown fox jumped over the lazy dog.")
+QuBrFx("The quick brown fox jumps over the lazy dog.")
 
 True
 
